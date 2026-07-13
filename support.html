@@ -4,36 +4,57 @@
 <meta charset="UTF-8">
 <title>Support — Spendly Log</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
-  h1 { font-size: 28px; }
-  h2 { font-size: 20px; margin-top: 32px; }
-  code { background: #f0f0f0; padding: 2px 6px; border-radius: 4px; }
-</style>
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1>Spendly Log support</h1>
 
-<p>Spendly Log tracks your expenses entirely on your device — no account, no cloud sync, no network access.</p>
+<nav>
+  <a class="brand" href="index.html"><img src="assets/icon.png" alt=""> Spendly Log</a>
+  <div class="links">
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy</a>
+  </div>
+</nav>
 
-<h2>Contact</h2>
-<p>For questions, bug reports, or feedback, email: <a href="mailto:mail@abhinav.se">mail@abhinav.se</a></p>
+<div class="page">
+  <div class="page-header"><img src="assets/icon.png" alt=""></div>
+  <h1>Support</h1>
+  <p class="updated">Spendly Log tracks your expenses entirely on your device — no account, no cloud sync, no network access.</p>
 
-<h2>Frequently asked questions</h2>
+  <div class="callout">Have a question, bug report, or feature request? Email <a href="mailto:mail@abhinav.se">mail@abhinav.se</a> — I read every message myself.</div>
 
-<p><strong>Where is my data stored?</strong><br>
-All expenses are stored locally on your device only. Nothing is uploaded anywhere. If you delete the app, your data is deleted with it — there is currently no backup or export feature beyond CSV import.</p>
+  <h2>Frequently asked questions</h2>
 
-<p><strong>What CSV formats can I import?</strong><br>
-The app auto-detects common bank and card export formats (comma, semicolon, or tab-delimited; US and EU number formats; several date formats). If your bank's export doesn't import correctly, email us a sample (with amounts redacted if you prefer) and we'll add support for it.</p>
+  <p class="faq-q">Where is my data stored?</p>
+  <p class="faq-a">All expenses are stored locally on your device only, using Apple's on-device SwiftData storage. Nothing is uploaded anywhere. If you delete the app, your data is deleted with it — there is currently no backup or export feature beyond CSV import.</p>
 
-<p><strong>Does it support multiple currencies?</strong><br>
-Amounts display using your device's locale currency. Multi-currency conversion isn't supported in this version.</p>
+  <p class="faq-q">What CSV formats can I import?</p>
+  <p class="faq-a">The app auto-detects common bank and card export formats: comma, semicolon, or tab-delimited files; quoted fields; header detection; a single signed-amount column or split debit/credit columns; US (1,234.56) and EU (1 234,56) number formats; and several date formats, auto-disambiguated. If your bank's export doesn't import correctly, email a sample (redact the amounts if you like) and it can likely be supported.</p>
 
-<p><strong>Does it sync between my iPhone and iPad?</strong><br>
-Not currently — each device keeps its own separate local data.</p>
+  <p class="faq-q">Will importing the same file twice create duplicates?</p>
+  <p class="faq-a">No — every imported row is hashed, so re-importing a file you've already imported automatically skips rows that were previously added.</p>
 
-<h2>Privacy</h2>
-<p>See the full <a href="privacy.html">privacy policy</a>.</p>
+  <p class="faq-q">Can I edit the category CSV import assigns to a row?</p>
+  <p class="faq-a">Yes. The import preview screen lets you review every row before committing — toggle rows to exclude them, or tap a row's category to change it.</p>
+
+  <p class="faq-q">Does it support multiple currencies?</p>
+  <p class="faq-a">Amounts display using your device's locale currency. Multi-currency conversion isn't supported in this version.</p>
+
+  <p class="faq-q">Does it sync between my iPhone and iPad?</p>
+  <p class="faq-a">Not currently — each device keeps its own separate local data, since there's no cloud account to sync through.</p>
+
+  <p class="faq-q">Is there a way to back up my data?</p>
+  <p class="faq-a">Not yet beyond re-exporting via CSV import history. This is being considered for a future version.</p>
+
+  <h2>Privacy</h2>
+  <p>Spendly Log collects nothing — see the full <a href="privacy.html">privacy policy</a> for details.</p>
+</div>
+
+<footer>
+  <div><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a></div>
+  <div style="margin-top:12px;">© 2026 Abhinav Goel</div>
+</footer>
+
 </body>
 </html>

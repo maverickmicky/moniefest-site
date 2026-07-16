@@ -54,13 +54,11 @@ nav .links a:hover { color: var(--violet); }
 .shots {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 16px;
   padding: 0 24px;
-  transform: translateY(40px);
 }
-.shots {
-  align-items: flex-start;
-}
+.hero .shots { transform: translateY(40px); }
 .shots img {
   height: 430px;
   width: auto;
@@ -68,7 +66,6 @@ nav .links a:hover { color: var(--violet); }
   box-shadow: 0 20px 50px rgba(0,0,0,0.35);
   border: 1px solid rgba(255,255,255,0.15);
 }
-.hero .shots img:nth-child(2) { transform: translateY(-16px); }
 
 .section { padding: 96px 24px 64px; }
 .section.tight { padding-top: 48px; }

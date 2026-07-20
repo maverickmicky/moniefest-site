@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Support — Spendly Log</title>
+<title>Support — Monyfest</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="assets/icon.png">
 <link rel="stylesheet" href="styles.css">
@@ -10,7 +10,7 @@
 <body>
 
 <nav>
-  <a class="brand" href="index.html"><img src="assets/icon.png" alt=""> Spendly Log</a>
+  <a class="brand" href="index.html"><img src="assets/icon.png" alt=""> Monyfest</a>
   <div class="links">
     <a href="support.html">Support</a>
     <a href="privacy.html">Privacy</a>
@@ -20,53 +20,53 @@
 <div class="page">
   <div class="page-header"><img src="assets/icon.png" alt=""></div>
   <h1>Support</h1>
-  <p class="updated">Spendly Log tracks your expenses entirely on your device — no account, no cloud sync, no network access.</p>
+  <p class="updated">Monyfest makes your spending clear, entirely on your device — no account, no cloud, no network access.</p>
 
-  <div class="callout">Have a question, bug report, or feature request? Email <a href="mailto:mail@abhinav.se">mail@abhinav.se</a> — I read every message myself. If Spendly Log saves you time, you can <a href="https://buymeacoffee.com/maverickmicky">buy me a coffee</a> ☕.</div>
+  <div class="callout">Have a question, a bug, or an idea? Email <a href="mailto:mail@abhinav.se">mail@abhinav.se</a> — I read every message myself. If Monyfest earns its place on your phone, you can <a href="https://buymeacoffee.com/maverickmicky">buy me a coffee</a> ☕.</div>
 
   <h2>Frequently asked questions</h2>
 
-  <p class="faq-q">Where is my data stored?</p>
-  <p class="faq-a">All expenses are stored locally on your device only, using Apple's on-device SwiftData storage. Nothing is uploaded anywhere. If you delete the app, your data is deleted with it — there is currently no backup or export feature beyond CSV import.</p>
+  <p class="faq-q">Where does my data live?</p>
+  <p class="faq-a">Only on your device, in Apple's on-device storage. Nothing is uploaded anywhere. If you delete the app your data goes with it, so keep an export if you want a copy.</p>
 
-  <p class="faq-q">Does the app work without internet?</p>
-  <p class="faq-a">Yes — completely. Spendly Log has no networking code at all, so every feature (including screenshot and video import) works in airplane mode. Try it: turn on airplane mode and use the app; nothing changes.</p>
+  <p class="faq-q">Does it work without internet?</p>
+  <p class="faq-a">Completely. Monyfest has no networking code at all, so every feature — including reading screenshots and recordings — works in airplane mode. Try it: switch airplane mode on and nothing changes.</p>
 
-  <p class="faq-q">How can I verify nothing is uploaded?</p>
-  <p class="faq-a">Three ways. First, the App Store listing shows Apple's privacy label as "Data Not Collected" — that declaration is part of App Review. Second, iOS itself keeps the receipts: enable <em>Settings → Privacy &amp; Security → App Privacy Report</em>, use Spendly Log for a while, and check the Network Activity section — Spendly Log will show no network activity, ever. Third, everything works in airplane mode, which would be impossible if your data needed a server.</p>
+  <p class="faq-q">How can I be sure nothing is sent anywhere?</p>
+  <p class="faq-a">Three ways. The App Store privacy label reads "Data Not Collected", which is checked during review. iOS keeps its own receipts — turn on <em>Settings → Privacy &amp; Security → App Privacy Report</em>, use Monyfest, and its network section stays blank. And it all works in airplane mode, which couldn't happen if your data needed a server.</p>
 
-  <p class="faq-q">How does screenshot import work?</p>
-  <p class="faq-a">Take screenshots of the transaction list in your bank app, then in Spendly Log tap Import → Scan Screenshot and choose them (or copy a screenshot and tap Paste). Text recognition runs on your phone using Apple's Vision framework — the images are never uploaded. Every detected transaction appears in a review screen where you can fix categories or exclude rows before anything is saved.</p>
+  <p class="faq-q">How does reading a screenshot work?</p>
+  <p class="faq-a">Screenshot the transaction list in your bank app, then in Monyfest tap Import → Scan Screenshot and pick it (or copy the screenshot and tap Paste). The text is read on your phone with Apple's Vision framework — the image is never uploaded. Every row lands in a review screen where you can fix categories or leave some out before saving.</p>
 
-  <p class="faq-q">How does video import work?</p>
-  <p class="faq-a">If the list is long, record your screen (Control Center → screen recording) while scrolling through it, then pick the video in the same import screen. Scroll slowly and steadily — fast flicks blur the text. Overlapping frames are de-duplicated automatically.</p>
+  <p class="faq-q">How does reading a recording work?</p>
+  <p class="faq-a">For a long history, record your screen (Control Center → screen recording) while scrolling slowly, then pick the video in the same import screen. Scroll steadily — fast flicks blur the text — and Monyfest skips the frames that overlap.</p>
 
-  <p class="faq-q">What does the orange dot on some imported expenses mean?</p>
-  <p class="faq-a">It marks a transaction whose date had to be guessed — usually because the screenshot cropped the list between a date heading and its rows. Open the expense, check or fix the date, and save; the dot disappears.</p>
+  <p class="faq-q">What's the orange dot on some expenses?</p>
+  <p class="faq-a">It flags an imported expense whose date had to be guessed — usually because the screenshot cut off between a date heading and its rows. Open the expense, confirm or fix the date, and save; the dot goes away.</p>
 
-  <p class="faq-q">How do I delete an expense?</p>
-  <p class="faq-a">Swipe left on it in the list, long-press it for a menu, or open it and tap Delete Expense.</p>
+  <p class="faq-q">How do I remove an expense?</p>
+  <p class="faq-a">Swipe left on it, long-press it for a menu, or open it and tap Delete.</p>
 
-  <p class="faq-q">What CSV formats can I import?</p>
-  <p class="faq-a">The app auto-detects common bank and card export formats: comma, semicolon, or tab-delimited files; quoted fields; header detection; a single signed-amount column or split debit/credit columns; US (1,234.56) and EU (1 234,56) number formats; and several date formats, auto-disambiguated. If your bank's export doesn't import correctly, email a sample (redact the amounts if you like) and it can likely be supported.</p>
+  <p class="faq-q">Which CSV files can it read?</p>
+  <p class="faq-a">Most bank and card exports: comma, semicolon, or tab separated; quoted fields; a single signed-amount column or split debit/credit columns; US (1,234.56) and EU (1 234,56) numbers; and several date formats, sorted out automatically. If yours doesn't come through cleanly, email a sample (blank out the amounts if you like) and it can usually be supported.</p>
 
-  <p class="faq-q">Will importing the same file twice create duplicates?</p>
-  <p class="faq-a">No — every imported row is hashed, so re-importing a file you've already imported automatically skips rows that were previously added.</p>
+  <p class="faq-q">Will importing the same file twice double things up?</p>
+  <p class="faq-a">No. Every row is fingerprinted, so bringing in a file you've already imported quietly skips the rows that are already there.</p>
 
-  <p class="faq-q">Can I edit the category CSV import assigns to a row?</p>
-  <p class="faq-a">Yes. The import preview screen lets you review every row before committing — toggle rows to exclude them, or tap a row's category to change it.</p>
+  <p class="faq-q">Can I change the category it picked?</p>
+  <p class="faq-a">Yes. The import review screen lets you go through every row before it's saved — leave some out, or tap a category to change it.</p>
 
-  <p class="faq-q">Does it support multiple currencies?</p>
-  <p class="faq-a">Amounts display using your device's locale currency. Multi-currency conversion isn't supported in this version.</p>
+  <p class="faq-q">Does it handle more than one currency?</p>
+  <p class="faq-a">Amounts show in your device's currency. Converting between currencies isn't part of this version.</p>
 
   <p class="faq-q">Does it sync between my iPhone and iPad?</p>
-  <p class="faq-a">Not currently — each device keeps its own separate local data, since there's no cloud account to sync through.</p>
+  <p class="faq-a">Not right now — with no cloud account to sync through, each device keeps its own copy.</p>
 
-  <p class="faq-q">Can I export or back up my data?</p>
-  <p class="faq-a">Yes — open the Import &amp; Export menu and choose Export. You can share your expenses as a CSV or Excel spreadsheet, or a PDF statement grouped by month, for any period. Files are generated on your device and go only where you send them (Files, AirDrop, email, …). The CSV re-imports into Spendly Log without creating duplicates, so it doubles as a backup.</p>
+  <p class="faq-q">Can I get my data out?</p>
+  <p class="faq-a">Yes — open Import &amp; Export and choose Export. Send your expenses as a CSV or Excel spreadsheet, or a PDF statement grouped by month, for any period. Files are made on your device and go only where you send them. The CSV comes back into Monyfest without doubling up, so it also works as a backup.</p>
 
   <h2>Privacy</h2>
-  <p>Spendly Log collects nothing — see the full <a href="privacy.html">privacy policy</a> for details.</p>
+  <p>Monyfest collects nothing — the full <a href="privacy.html">privacy policy</a> has the details.</p>
 </div>
 
 <footer>

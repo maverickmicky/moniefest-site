@@ -35,6 +35,7 @@ nav {
 }
 nav .brand { display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 17px; color: var(--violet-deep); text-decoration: none; }
 nav .brand img { width: 30px; height: 30px; border-radius: 7px; }
+nav .brand .dollar { color: var(--amber); font-size: 0.82em; font-weight: 700; }
 nav .links a { color: var(--ink-soft); text-decoration: none; font-size: 15px; margin-left: 24px; }
 nav .links a:hover { color: var(--violet); }
 
